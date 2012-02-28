@@ -41,7 +41,15 @@ class BearPlannerController < ApplicationController
     redirect_to :action => "home" #redirect to the homepage
   end
 
-  def show_calendars
+  def show_calendars    
+    userID = session[:uid] 
+    targetUser = Users.find_by_id(userID)
+    targetCalendars = targetUser.calendars #returns a list of calendar objects
+    
+    @calendarArray = []
+    targetCalendars.each do |cal|
+      @calendarArray << {:id => cal.id, :name => cal.name, :description => cal.description}
+    end
   end
 
   def show_calendar
