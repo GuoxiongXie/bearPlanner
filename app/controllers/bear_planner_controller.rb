@@ -48,14 +48,25 @@ class BearPlannerController < ApplicationController
     
     @calendarArray = []
     targetCalendars.each do |cal|
-      @calendarArray << {:id => cal.id, :name => cal.name, :description => cal.description}
+      @calendarArray << {:id => cal.id, :name => cal.name, :description => cal.description} #DEBUG: cal.id???
     end
   end
 
   def show_calendar
+    calID = params[:cal_id]
+    targetCal = Calendar.find_by_id(calID)
+    @calName = targetCal.name
+    @calDescription = targetCal.description
+    
+    @eventArray = []
+    targetEvents = targetCal.events #return a list of events objects
+    targetEvents.each do |anEvent|
+      @eventArray << {:id => anEvent.id, :name => anEvent.name, :starts_at => anEvent.start, :ends_at => anEvent.end} #DEBUG: cal.id???
+    end
   end
 
-  def edit_event
+  def edit_event #copy from login
+
   end
 
   def create_calendar
