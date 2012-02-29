@@ -3,6 +3,6 @@ class Event < ActiveRecord::Base
   validates :start, :presence => true #Makes sure all useres have a unique name
   validates :end, :presence => true #Makes sure all useres have a unique name
   
-  belongs_to :calendar #DEBUG: calendars???
+  #belongs_to :calendar #DEBUG: calendars???
   has_many :users  #DEBUG: calendars need s??    
 end
