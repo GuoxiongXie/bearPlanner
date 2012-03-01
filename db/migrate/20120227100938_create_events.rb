@@ -5,6 +5,10 @@ class CreateEvents < ActiveRecord::Migration
       t.datetime :start #DateTime???
       t.datetime :end
       t.timestamps
+      
+      t.references :calendar
+      t.references :users  #the user_id will used as ownerID
+      #belongs_to :calendars  #DEBUG:need it or not
     end
   end
 end
