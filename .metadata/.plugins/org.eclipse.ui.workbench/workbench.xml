@@ -17,7 +17,7 @@
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="84" y="30"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
-<coolItem id="com.aptana.editor.erb.html" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="com.aptana.editor.erb.html" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="com.aptana.editor.ruby" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
@@ -31,51 +31,86 @@
 <part id="0"/>
 <part id="1"/>
 <part id="2"/>
-<part id="5"/>
 <part id="3"/>
-<part id="6"/>
 <part id="4"/>
+<part id="5"/>
+<part id="6"/>
 <part id="7"/>
 <part id="8"/>
+<part id="9"/>
+<part id="10"/>
+<part id="11"/>
+<part id="12"/>
+<part id="13"/>
+<part id="14"/>
+<part id="15"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor activePart="true" focus="true" id="com.aptana.editor.ruby" name="calendar.rb" partName="calendar.rb" title="calendar.rb" tooltip="/home/saasbook/sp12/hw3/bearPlanner/app/models/calendar.rb" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/saasbook/sp12/hw3/bearPlanner/app/models/calendar.rb"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="176" selectionTopPixel="0"/>
+<editor activePart="true" focus="true" id="com.aptana.editor.ruby" name="bear_planner_controller.rb" partName="bear_planner_controller.rb" title="bear_planner_controller.rb" tooltip="/home/saasbook/sp12/hw3/bearPlanner/app/controllers/bear_planner_controller.rb" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/saasbook/sp12/hw3/bearPlanner/app/controllers/bear_planner_controller.rb"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="5264" selectionTopPixel="2444"/>
 </editor>
-<editor id="com.aptana.editor.ruby" name="event.rb" partName="event.rb" title="event.rb" tooltip="/home/saasbook/sp12/hw3/bearPlanner/app/models/event.rb" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/saasbook/sp12/hw3/bearPlanner/app/models/event.rb"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="265" selectionTopPixel="0"/>
-</editor>
-<editor id="com.aptana.editor.ruby" name="users.rb" partName="users.rb" title="users.rb" tooltip="/home/saasbook/sp12/hw3/bearPlanner/app/models/users.rb" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/saasbook/sp12/hw3/bearPlanner/app/models/users.rb"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="155" selectionTopPixel="0"/>
-</editor>
-<editor id="com.aptana.editor.ruby" name="20120227100839_create_calendars.rb" partName="20120227100839_create_calendars.rb" title="20120227100839_create_calendars.rb" tooltip="/home/saasbook/sp12/hw3/bearPlanner/db/migrate/20120227100839_create_calendars.rb" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/saasbook/sp12/hw3/bearPlanner/db/migrate/20120227100839_create_calendars.rb"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="294" selectionTopPixel="0"/>
+<editor id="com.aptana.editor.ruby" name="20120301040251_create_invites.rb" partName="20120301040251_create_invites.rb" title="20120301040251_create_invites.rb" tooltip="/home/saasbook/sp12/hw3/bearPlanner/db/migrate/20120301040251_create_invites.rb" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/saasbook/sp12/hw3/bearPlanner/db/migrate/20120301040251_create_invites.rb"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="293" selectionTopPixel="0"/>
 </editor>
 <editor id="com.aptana.editor.ruby" name="20120227100938_create_events.rb" partName="20120227100938_create_events.rb" title="20120227100938_create_events.rb" tooltip="/home/saasbook/sp12/hw3/bearPlanner/db/migrate/20120227100938_create_events.rb" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/saasbook/sp12/hw3/bearPlanner/db/migrate/20120227100938_create_events.rb"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="89" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="270" selectionTopPixel="0"/>
+</editor>
+<editor id="com.aptana.editor.ruby" name="20120227100839_create_calendars.rb" partName="20120227100839_create_calendars.rb" title="20120227100839_create_calendars.rb" tooltip="/home/saasbook/sp12/hw3/bearPlanner/db/migrate/20120227100839_create_calendars.rb" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/saasbook/sp12/hw3/bearPlanner/db/migrate/20120227100839_create_calendars.rb"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
 </editor>
 <editor id="com.aptana.editor.ruby" name="20120205182312_create_users.rb" partName="20120205182312_create_users.rb" title="20120205182312_create_users.rb" tooltip="/home/saasbook/sp12/hw3/bearPlanner/db/migrate/20120205182312_create_users.rb" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/saasbook/sp12/hw3/bearPlanner/db/migrate/20120205182312_create_users.rb"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="64" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
 </editor>
-<editor id="com.aptana.editor.ruby" name="bear_planner_controller.rb" partName="bear_planner_controller.rb" title="bear_planner_controller.rb" tooltip="/home/saasbook/sp12/hw3/bearPlanner/app/controllers/bear_planner_controller.rb" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/saasbook/sp12/hw3/bearPlanner/app/controllers/bear_planner_controller.rb"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2894" selectionTopPixel="1164"/>
+<editor id="com.aptana.editor.erb.html" name="show_calendars.html.erb" partName="show_calendars.html.erb" title="show_calendars.html.erb" tooltip="/home/saasbook/sp12/hw3/bearPlanner/app/views/bear_planner/show_calendars.html.erb" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/saasbook/sp12/hw3/bearPlanner/app/views/bear_planner/show_calendars.html.erb"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="312" selectionTopPixel="0"/>
 </editor>
-<editor id="com.aptana.editor.ruby" name="20120229073450_create_invitees.rb" partName="20120229073450_create_invitees.rb" title="20120229073450_create_invitees.rb" tooltip="/home/saasbook/sp12/hw3/bearPlanner/db/migrate/20120229073450_create_invitees.rb" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/saasbook/sp12/hw3/bearPlanner/db/migrate/20120229073450_create_invitees.rb"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="93" selectionTopPixel="0"/>
+<editor id="com.aptana.editor.erb.html" name="home.html.erb" partName="home.html.erb" title="home.html.erb" tooltip="/home/saasbook/sp12/hw3/bearPlanner/app/views/bear_planner/home.html.erb" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/saasbook/sp12/hw3/bearPlanner/app/views/bear_planner/home.html.erb"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
 </editor>
-<editor id="com.aptana.editor.ruby" name="invitee.rb" partName="invitee.rb" title="invitee.rb" tooltip="/home/saasbook/sp12/hw3/bearPlanner/app/models/invitee.rb" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/saasbook/sp12/hw3/bearPlanner/app/models/invitee.rb"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="131" selectionTopPixel="0"/>
+<editor id="com.aptana.editor.ruby" name="users.rb" partName="users.rb" title="users.rb" tooltip="/home/saasbook/sp12/hw3/bearPlanner/app/models/users.rb" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/saasbook/sp12/hw3/bearPlanner/app/models/users.rb"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="186" selectionTopPixel="0"/>
+</editor>
+<editor id="com.aptana.editor.ruby" name="Gemfile" partName="Gemfile" title="Gemfile" tooltip="/home/saasbook/sp12/hw3/bearPlanner/Gemfile" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/saasbook/sp12/hw3/bearPlanner/Gemfile"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="496" selectionTopPixel="140"/>
+</editor>
+<editor id="com.aptana.editor.erb.html" name="show_calendar.html.erb" partName="show_calendar.html.erb" title="show_calendar.html.erb" tooltip="/home/saasbook/sp12/hw3/bearPlanner/app/views/bear_planner/show_calendar.html.erb" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/saasbook/sp12/hw3/bearPlanner/app/views/bear_planner/show_calendar.html.erb"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="49" selectionTopPixel="0"/>
+</editor>
+<editor id="com.aptana.editor.ruby" name="invite.rb" partName="invite.rb" title="invite.rb" tooltip="/home/saasbook/sp12/hw3/bearPlanner/app/models/invite.rb" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/saasbook/sp12/hw3/bearPlanner/app/models/invite.rb"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="92" selectionTopPixel="0"/>
+</editor>
+<editor id="com.aptana.editor.erb.html" name="edit_calendar.html.erb" partName="edit_calendar.html.erb" title="edit_calendar.html.erb" tooltip="/home/saasbook/sp12/hw3/bearPlanner/app/views/bear_planner/edit_calendar.html.erb" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/saasbook/sp12/hw3/bearPlanner/app/views/bear_planner/edit_calendar.html.erb"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="142" selectionTopPixel="0"/>
+</editor>
+<editor id="com.aptana.editor.erb.html" name="_edit_cal_form.html.erb" partName="_edit_cal_form.html.erb" title="_edit_cal_form.html.erb" tooltip="/home/saasbook/sp12/hw3/bearPlanner/app/views/bear_planner/_edit_cal_form.html.erb" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/saasbook/sp12/hw3/bearPlanner/app/views/bear_planner/_edit_cal_form.html.erb"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="442" selectionTopPixel="0"/>
+</editor>
+<editor id="com.aptana.editor.ruby" name="calendar.rb" partName="calendar.rb" title="calendar.rb" tooltip="/home/saasbook/sp12/hw3/bearPlanner/app/models/calendar.rb" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/saasbook/sp12/hw3/bearPlanner/app/models/calendar.rb"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="275" selectionTopPixel="0"/>
+</editor>
+<editor id="com.aptana.editor.ruby" name="event.rb" partName="event.rb" title="event.rb" tooltip="/home/saasbook/sp12/hw3/bearPlanner/app/models/event.rb" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/saasbook/sp12/hw3/bearPlanner/app/models/event.rb"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="58" selectionTopPixel="0"/>
+</editor>
+<editor id="com.aptana.editor.erb.html" name="_create_event_form.html.erb" partName="_create_event_form.html.erb" title="_create_event_form.html.erb" tooltip="/home/saasbook/sp12/hw3/bearPlanner/app/views/bear_planner/_create_event_form.html.erb" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/saasbook/sp12/hw3/bearPlanner/app/views/bear_planner/_create_event_form.html.erb"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="417" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
@@ -189,162 +224,166 @@
 <navigationHistory>
 <editors>
 <editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" uri="file:/home/saasbook/sp12/hw3/bearPlanner/app/controllers/bear_planner_controller.rb"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" uri="file:/home/saasbook/sp12/hw3/bearPlanner/db/migrate/20120301040251_create_invites.rb"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.erb.html" uri="file:/home/saasbook/sp12/hw3/bearPlanner/app/views/bear_planner/show_calendar.html.erb"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.erb.html" uri="file:/home/saasbook/sp12/hw3/bearPlanner/app/views/bear_planner/show_calendars.html.erb"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" uri="file:/home/saasbook/sp12/hw3/bearPlanner/app/models/invite.rb"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.erb.html" uri="file:/home/saasbook/sp12/hw3/bearPlanner/app/views/bear_planner/edit_calendar.html.erb"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.erb.html" uri="file:/home/saasbook/sp12/hw3/bearPlanner/app/views/bear_planner/_edit_cal_form.html.erb"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" uri="file:/home/saasbook/sp12/hw3/bearPlanner/app/models/calendar.rb"/>
 <editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" uri="file:/home/saasbook/sp12/hw3/bearPlanner/db/migrate/20120227100938_create_events.rb"/>
 <editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" uri="file:/home/saasbook/sp12/hw3/bearPlanner/app/models/event.rb"/>
-<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" uri="file:/home/saasbook/sp12/hw3/bearPlanner/db/migrate/20120227100839_create_calendars.rb"/>
-<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" uri="file:/home/saasbook/sp12/hw3/bearPlanner/db/migrate/20120229073450_create_invitees.rb"/>
-<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" uri="file:/home/saasbook/sp12/hw3/bearPlanner/app/models/invitee.rb"/>
-<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" uri="file:/home/saasbook/sp12/hw3/bearPlanner/app/models/calendar.rb"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.erb.html" uri="file:/home/saasbook/sp12/hw3/bearPlanner/app/views/bear_planner/_create_event_form.html.erb"/>
 </editors>
-<item historyLabel="20120227100839_create_calendars.rb" index="3">
-<position info="not_deleted" x="261" y="0"/>
-</item>
-<item historyLabel="20120227100938_create_events.rb" index="1">
-<position info="not_deleted" x="242" y="0"/>
-</item>
-<item historyLabel="20120229073450_create_invitees.rb" index="4">
-<position info="not_deleted" x="307" y="0"/>
-</item>
-<item historyLabel="event.rb" index="2">
-<position info="not_deleted" x="265" y="0"/>
-</item>
-<item historyLabel="20120227100839_create_calendars.rb" index="3">
-<position info="not_deleted" x="261" y="0"/>
+<item historyLabel="bear_planner_controller.rb" index="0">
+<position info="not_deleted" x="3810" y="0"/>
 </item>
 <item historyLabel="bear_planner_controller.rb" index="0">
-<position info="not_deleted" x="2130" y="0"/>
-</item>
-<item historyLabel="20120229073450_create_invitees.rb" index="4">
-<position info="not_deleted" x="154" y="0"/>
-</item>
-<item historyLabel="20120227100938_create_events.rb" index="1">
-<position info="not_deleted" x="193" y="0"/>
-</item>
-<item historyLabel="20120229073450_create_invitees.rb" index="4">
-<position info="not_deleted" x="124" y="0"/>
-</item>
-<item historyLabel="invitee.rb" index="5">
-<position info="not_deleted" x="131" y="0"/>
-</item>
-<item historyLabel="20120227100839_create_calendars.rb" index="3">
-<position info="not_deleted" x="261" y="0"/>
-</item>
-<item historyLabel="calendar.rb" index="6">
-<position info="not_deleted" x="176" y="0"/>
+<position info="not_deleted" x="3849" y="0"/>
 </item>
 <item historyLabel="bear_planner_controller.rb" index="0">
-<position/>
+<position info="not_deleted" x="3753" y="0"/>
 </item>
-<item historyLabel="calendar.rb" index="6">
-<position info="not_deleted" x="176" y="0"/>
+<item historyLabel="edit_calendar.html.erb" index="5">
+<position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="20120227100839_create_calendars.rb" index="3">
-<position info="not_deleted" x="140" y="0"/>
+<item historyLabel="show_calendar.html.erb" index="2">
+<position info="not_deleted" x="887" y="0"/>
 </item>
-<item historyLabel="bear_planner_controller.rb" index="0">
-<position/>
-</item>
-<item historyLabel="20120227100938_create_events.rb" index="1">
-<position info="not_deleted" x="193" y="0"/>
-</item>
-<item historyLabel="20120229073450_create_invitees.rb" index="4">
-<position info="not_deleted" x="124" y="0"/>
-</item>
-<item historyLabel="20120227100839_create_calendars.rb" index="3">
-<position info="not_deleted" x="140" y="0"/>
-</item>
-<item historyLabel="20120229073450_create_invitees.rb" index="4">
-<position info="not_deleted" x="124" y="0"/>
+<item historyLabel="show_calendars.html.erb" index="3">
+<position info="not_deleted" x="312" y="0"/>
 </item>
 <item historyLabel="bear_planner_controller.rb" index="0">
-<position/>
+<position info="not_deleted" x="4253" y="0"/>
+</item>
+<item historyLabel="edit_calendar.html.erb" index="5">
+<position info="not_deleted" x="142" y="0"/>
+</item>
+<item historyLabel="_edit_cal_form.html.erb" index="6">
+<position info="not_deleted" x="442" y="0"/>
+</item>
+<item historyLabel="show_calendar.html.erb" index="2">
+<position info="not_deleted" x="11" y="31"/>
 </item>
 <item historyLabel="bear_planner_controller.rb" index="0">
-<position/>
+<position info="not_deleted" x="4253" y="0"/>
 </item>
 <item historyLabel="bear_planner_controller.rb" index="0">
-<position/>
+<position info="not_deleted" x="4794" y="0"/>
+</item>
+<item historyLabel="calendar.rb" index="7">
+<position info="not_deleted" x="0" y="0"/>
 </item>
 <item historyLabel="bear_planner_controller.rb" index="0">
-<position info="not_deleted" x="2613" y="0"/>
-</item>
-<item historyLabel="20120227100938_create_events.rb" index="1">
-<position info="not_deleted" x="215" y="0"/>
-</item>
-<item historyLabel="20120227100839_create_calendars.rb" index="3">
-<position info="not_deleted" x="140" y="0"/>
-</item>
-<item historyLabel="calendar.rb" index="6">
-<position info="not_deleted" x="176" y="0"/>
-</item>
-<item historyLabel="20120227100839_create_calendars.rb" index="3">
-<position info="not_deleted" x="140" y="0"/>
+<position info="not_deleted" x="4794" y="0"/>
 </item>
 <item historyLabel="bear_planner_controller.rb" index="0">
-<position info="not_deleted" x="3062" y="0"/>
-</item>
-<item historyLabel="20120227100938_create_events.rb" index="1">
-<position info="not_deleted" x="215" y="0"/>
-</item>
-<item historyLabel="20120229073450_create_invitees.rb" index="4">
-<position info="not_deleted" x="154" y="0"/>
+<position info="not_deleted" x="4363" y="0"/>
 </item>
 <item historyLabel="bear_planner_controller.rb" index="0">
-<position info="not_deleted" x="3062" y="0"/>
+<position info="not_deleted" x="4555" y="0"/>
 </item>
-<item historyLabel="20120227100839_create_calendars.rb" index="3">
-<position info="not_deleted" x="140" y="0"/>
-</item>
-<item historyLabel="20120227100938_create_events.rb" index="1">
-<position info="not_deleted" x="215" y="0"/>
-</item>
-<item historyLabel="20120229073450_create_invitees.rb" index="4">
-<position info="not_deleted" x="154" y="0"/>
-</item>
-<item historyLabel="invitee.rb" index="5">
-<position info="not_deleted" x="131" y="0"/>
-</item>
-<item historyLabel="event.rb" index="2">
-<position info="not_deleted" x="265" y="0"/>
+<item historyLabel="calendar.rb" index="7">
+<position info="not_deleted" x="0" y="0"/>
 </item>
 <item historyLabel="bear_planner_controller.rb" index="0">
-<position info="not_deleted" x="2859" y="0"/>
-</item>
-<item historyLabel="20120229073450_create_invitees.rb" index="4">
-<position info="not_deleted" x="154" y="0"/>
-</item>
-<item historyLabel="20120227100839_create_calendars.rb" index="3">
-<position info="not_deleted" x="294" y="0"/>
-</item>
-<item historyLabel="20120229073450_create_invitees.rb" index="4">
-<position info="not_deleted" x="202" y="0"/>
+<position info="not_deleted" x="4555" y="0"/>
 </item>
 <item historyLabel="bear_planner_controller.rb" index="0">
-<position info="not_deleted" x="2859" y="0"/>
+<position info="not_deleted" x="4492" y="0"/>
 </item>
 <item historyLabel="bear_planner_controller.rb" index="0">
-<position info="not_deleted" x="2894" y="0"/>
+<position info="not_deleted" x="5876" y="0"/>
 </item>
-<item historyLabel="20120229073450_create_invitees.rb" index="4">
-<position info="not_deleted" x="154" y="0"/>
+<item historyLabel="20120227100938_create_events.rb" index="8">
+<position info="not_deleted" x="270" y="0"/>
 </item>
-<item historyLabel="invitee.rb" index="5">
-<position info="not_deleted" x="131" y="0"/>
+<item historyLabel="calendar.rb" index="7">
+<position info="not_deleted" x="275" y="0"/>
 </item>
-<item historyLabel="20120229073450_create_invitees.rb" index="4">
-<position info="not_deleted" x="93" y="0"/>
+<item historyLabel="bear_planner_controller.rb" index="0">
+<position info="not_deleted" x="6030" y="0"/>
 </item>
-<item historyLabel="20120227100938_create_events.rb" index="1">
-<position info="not_deleted" x="89" y="0"/>
+<item historyLabel="calendar.rb" index="7">
+<position info="not_deleted" x="275" y="0"/>
 </item>
-<item historyLabel="20120227100839_create_calendars.rb" index="3">
-<position info="not_deleted" x="294" y="0"/>
+<item historyLabel="event.rb" index="9">
+<position info="not_deleted" x="331" y="0"/>
 </item>
-<item historyLabel="20120227100938_create_events.rb" index="1">
-<position info="not_deleted" x="89" y="0"/>
+<item historyLabel="invite.rb" index="4">
+<position info="not_deleted" x="84" y="0"/>
 </item>
-<item active="true" historyLabel="calendar.rb" index="6">
-<position info="not_deleted" x="176" y="0"/>
+<item historyLabel="20120301040251_create_invites.rb" index="1">
+<position info="not_deleted" x="293" y="0"/>
+</item>
+<item historyLabel="invite.rb" index="4">
+<position info="not_deleted" x="85" y="0"/>
+</item>
+<item historyLabel="20120301040251_create_invites.rb" index="1">
+<position info="not_deleted" x="293" y="0"/>
+</item>
+<item historyLabel="bear_planner_controller.rb" index="0">
+<position info="not_deleted" x="5936" y="0"/>
+</item>
+<item historyLabel="invite.rb" index="4">
+<position info="not_deleted" x="92" y="0"/>
+</item>
+<item historyLabel="bear_planner_controller.rb" index="0">
+<position info="not_deleted" x="5936" y="0"/>
+</item>
+<item historyLabel="bear_planner_controller.rb" index="0">
+<position info="not_deleted" x="5138" y="0"/>
+</item>
+<item historyLabel="bear_planner_controller.rb" index="0">
+<position info="not_deleted" x="5179" y="0"/>
+</item>
+<item historyLabel="bear_planner_controller.rb" index="0">
+<position info="not_deleted" x="6800" y="0"/>
+</item>
+<item historyLabel="bear_planner_controller.rb" index="0">
+<position info="not_deleted" x="5760" y="0"/>
+</item>
+<item historyLabel="show_calendar.html.erb" index="2">
+<position info="not_deleted" x="49" y="0"/>
+</item>
+<item historyLabel="_create_event_form.html.erb" index="10">
+<position info="not_deleted" x="252" y="0"/>
+</item>
+<item historyLabel="bear_planner_controller.rb" index="0">
+<position info="not_deleted" x="2269" y="0"/>
+</item>
+<item historyLabel="_create_event_form.html.erb" index="10">
+<position info="not_deleted" x="417" y="0"/>
+</item>
+<item historyLabel="20120301040251_create_invites.rb" index="1">
+<position info="not_deleted" x="293" y="0"/>
+</item>
+<item historyLabel="bear_planner_controller.rb" index="0">
+<position info="not_deleted" x="2269" y="0"/>
+</item>
+<item historyLabel="bear_planner_controller.rb" index="0">
+<position info="not_deleted" x="5417" y="0"/>
+</item>
+<item historyLabel="bear_planner_controller.rb" index="0">
+<position info="not_deleted" x="5345" y="0"/>
+</item>
+<item historyLabel="bear_planner_controller.rb" index="0">
+<position info="not_deleted" x="5344" y="0"/>
+</item>
+<item historyLabel="bear_planner_controller.rb" index="0">
+<position info="not_deleted" x="5643" y="0"/>
+</item>
+<item historyLabel="event.rb" index="9">
+<position info="not_deleted" x="331" y="0"/>
+</item>
+<item historyLabel="bear_planner_controller.rb" index="0">
+<position info="not_deleted" x="7463" y="0"/>
+</item>
+<item historyLabel="event.rb" index="9">
+<position info="not_deleted" x="58" y="0"/>
+</item>
+<item active="true" historyLabel="bear_planner_controller.rb" index="0">
+<position info="not_deleted" x="7463" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -364,50 +403,50 @@
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" name="invitee.rb" tooltip="/home/saasbook/sp12/hw3/bearPlanner/app/models/invitee.rb">
-<persistable uri="file:/home/saasbook/sp12/hw3/bearPlanner/app/models/invitee.rb"/>
-</file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" name="20120229073450_create_invitees.rb" tooltip="/home/saasbook/sp12/hw3/bearPlanner/db/migrate/20120229073450_create_invitees.rb">
-<persistable uri="file:/home/saasbook/sp12/hw3/bearPlanner/db/migrate/20120229073450_create_invitees.rb"/>
-</file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" name="invitees.rb" tooltip="/home/saasbook/sp12/hw3/bearPlanner/app/models/invitees.rb">
-<persistable uri="file:/home/saasbook/sp12/hw3/bearPlanner/app/models/invitees.rb"/>
-</file>
 <file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.erb.html" name="_create_event_form.html.erb" tooltip="/home/saasbook/sp12/hw3/bearPlanner/app/views/bear_planner/_create_event_form.html.erb">
 <persistable uri="file:/home/saasbook/sp12/hw3/bearPlanner/app/views/bear_planner/_create_event_form.html.erb"/>
 </file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.erb.html" name="create_event.html.erb" tooltip="/home/saasbook/sp12/hw3/bearPlanner/app/views/bear_planner/create_event.html.erb">
-<persistable uri="file:/home/saasbook/sp12/hw3/bearPlanner/app/views/bear_planner/create_event.html.erb"/>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" name="event.rb" tooltip="/home/saasbook/sp12/hw3/bearPlanner/app/models/event.rb">
+<persistable uri="file:/home/saasbook/sp12/hw3/bearPlanner/app/models/event.rb"/>
 </file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.erb.html" name="create_invite.html.erb" tooltip="/home/saasbook/sp12/hw3/bearPlanner/app/views/bear_planner/create_invite.html.erb">
-<persistable uri="file:/home/saasbook/sp12/hw3/bearPlanner/app/views/bear_planner/create_invite.html.erb"/>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" name="calendar.rb" tooltip="/home/saasbook/sp12/hw3/bearPlanner/app/models/calendar.rb">
+<persistable uri="file:/home/saasbook/sp12/hw3/bearPlanner/app/models/calendar.rb"/>
 </file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.erb.html" name="create_calendar.html.erb" tooltip="/home/saasbook/sp12/hw3/bearPlanner/app/views/bear_planner/create_calendar.html.erb">
-<persistable uri="file:/home/saasbook/sp12/hw3/bearPlanner/app/views/bear_planner/create_calendar.html.erb"/>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.erb.html" name="_edit_cal_form.html.erb" tooltip="/home/saasbook/sp12/hw3/bearPlanner/app/views/bear_planner/_edit_cal_form.html.erb">
+<persistable uri="file:/home/saasbook/sp12/hw3/bearPlanner/app/views/bear_planner/_edit_cal_form.html.erb"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.erb.html" name="edit_calendar.html.erb" tooltip="/home/saasbook/sp12/hw3/bearPlanner/app/views/bear_planner/edit_calendar.html.erb">
+<persistable uri="file:/home/saasbook/sp12/hw3/bearPlanner/app/views/bear_planner/edit_calendar.html.erb"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" name="invite.rb" tooltip="/home/saasbook/sp12/hw3/bearPlanner/app/models/invite.rb">
+<persistable uri="file:/home/saasbook/sp12/hw3/bearPlanner/app/models/invite.rb"/>
 </file>
 <file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.erb.html" name="show_calendar.html.erb" tooltip="/home/saasbook/sp12/hw3/bearPlanner/app/views/bear_planner/show_calendar.html.erb">
 <persistable uri="file:/home/saasbook/sp12/hw3/bearPlanner/app/views/bear_planner/show_calendar.html.erb"/>
 </file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" name="Gemfile" tooltip="/home/saasbook/sp12/hw3/bearPlanner/Gemfile">
+<persistable uri="file:/home/saasbook/sp12/hw3/bearPlanner/Gemfile"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" name="users.rb" tooltip="/home/saasbook/sp12/hw3/bearPlanner/app/models/users.rb">
+<persistable uri="file:/home/saasbook/sp12/hw3/bearPlanner/app/models/users.rb"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.erb.html" name="home.html.erb" tooltip="/home/saasbook/sp12/hw3/bearPlanner/app/views/bear_planner/home.html.erb">
+<persistable uri="file:/home/saasbook/sp12/hw3/bearPlanner/app/views/bear_planner/home.html.erb"/>
+</file>
 <file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.erb.html" name="show_calendars.html.erb" tooltip="/home/saasbook/sp12/hw3/bearPlanner/app/views/bear_planner/show_calendars.html.erb">
 <persistable uri="file:/home/saasbook/sp12/hw3/bearPlanner/app/views/bear_planner/show_calendars.html.erb"/>
-</file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" name="movie.rb" tooltip="/home/saasbook/hw4_rottenpotatoes/app/models/movie.rb">
-<persistable uri="file:/home/saasbook/hw4_rottenpotatoes/app/models/movie.rb"/>
-</file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" name="movies_controller.rb" tooltip="/home/saasbook/hw4_rottenpotatoes/app/controllers/movies_controller.rb">
-<persistable uri="file:/home/saasbook/hw4_rottenpotatoes/app/controllers/movies_controller.rb"/>
-</file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" name="application_controller.rb" tooltip="/home/saasbook/sp12/hw3/bearPlanner/app/controllers/application_controller.rb">
-<persistable uri="file:/home/saasbook/sp12/hw3/bearPlanner/app/controllers/application_controller.rb"/>
-</file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" name="bear_planner_controller.rb" tooltip="/home/saasbook/sp12/hw3/bearPlanner/app/controllers/bear_planner_controller.rb">
-<persistable uri="file:/home/saasbook/sp12/hw3/bearPlanner/app/controllers/bear_planner_controller.rb"/>
 </file>
 <file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" name="20120205182312_create_users.rb" tooltip="/home/saasbook/sp12/hw3/bearPlanner/db/migrate/20120205182312_create_users.rb">
 <persistable uri="file:/home/saasbook/sp12/hw3/bearPlanner/db/migrate/20120205182312_create_users.rb"/>
 </file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" name="20120227100839_create_calendars.rb" tooltip="/home/saasbook/sp12/hw3/bearPlanner/db/migrate/20120227100839_create_calendars.rb">
+<persistable uri="file:/home/saasbook/sp12/hw3/bearPlanner/db/migrate/20120227100839_create_calendars.rb"/>
+</file>
 <file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" name="20120227100938_create_events.rb" tooltip="/home/saasbook/sp12/hw3/bearPlanner/db/migrate/20120227100938_create_events.rb">
 <persistable uri="file:/home/saasbook/sp12/hw3/bearPlanner/db/migrate/20120227100938_create_events.rb"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" name="20120301040251_create_invites.rb" tooltip="/home/saasbook/sp12/hw3/bearPlanner/db/migrate/20120301040251_create_invites.rb">
+<persistable uri="file:/home/saasbook/sp12/hw3/bearPlanner/db/migrate/20120301040251_create_invites.rb"/>
 </file>
 </mruList>
 </workbench>

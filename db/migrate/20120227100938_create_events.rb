@@ -4,6 +4,7 @@ class CreateEvents < ActiveRecord::Migration
       t.string :name #with a column called "name" of type "string"
       t.datetime :start #DateTime???
       t.datetime :end
+      t.integer :inviteID
       t.timestamps
       
       t.references :calendar

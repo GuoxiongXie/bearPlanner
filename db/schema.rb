@@ -25,6 +25,7 @@ ActiveRecord::Schema.define(:version => 20120301040251) do
     t.string   "name"
     t.datetime "start"
     t.datetime "end"
+    t.integer  "inviteID"
     t.datetime "created_at"
     t.datetime "updated_at"
     t.integer  "calendar_id"
