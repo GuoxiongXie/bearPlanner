@@ -179,6 +179,7 @@ class BearPlannerController < ApplicationController
     newCal = Calendar.new do |cal|
       cal.name = params[:calName]
       cal.description = params[:calDescription]
+      cal.users_id = userID
     end  
     if request.post?
       if newCal.save # I also change this
