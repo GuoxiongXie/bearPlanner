@@ -131,7 +131,19 @@ class BearPlannerController < ApplicationController
         end  
         listOfNotValidInvitees = ""
         
-        if tarEvent.save #if they have submitted the form attempts to save the event        
+        if tarEvent.save #if they have submitted the form attempts to save the event
+          #update old invitees
+          oldInviteeList = tarEvent.invites
+          oldInviteeList.each do |oldInvitee|
+            eventID = oldInvitee.event_id
+            eventObject = Event.find_by_inviteID(oldInvitee.id)
+            eventObject.name = tarEvent.name
+            eventObject.start = tarEvent.start
+            eventObject.end = tarEvent.end
+            eventObject.save!
+          end
+          
+          #new invitees        
           invitees.each do |name|
             invitee = Invite.new do |i|
               i.event_id = tarEvent.id
