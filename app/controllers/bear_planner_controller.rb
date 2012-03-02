@@ -138,10 +138,12 @@ class BearPlannerController < ApplicationController
             if oldInvitee.users_id != session[:uid]
               eventID = oldInvitee.event_id
               eventObject = Event.find_by_inviteID(oldInvitee.id)
-              eventObject.name = tarEvent.name
-              eventObject.start = tarEvent.start
-              eventObject.end = tarEvent.end
-              eventObject.save!
+              if eventObject != nil
+                eventObject.name = params[:eventName]
+                eventObject.start = params[:starts_at]
+                eventObject.end = params[:ends_at]
+                eventObject.save!
+              end
             end
             oldInvitee.msg = params[:inviteMessage]
             oldInvitee.save!
