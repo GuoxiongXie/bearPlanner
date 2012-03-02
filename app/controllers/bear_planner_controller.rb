@@ -135,12 +135,16 @@ class BearPlannerController < ApplicationController
           #update old invitees
           oldInviteeList = tarEvent.invites
           oldInviteeList.each do |oldInvitee|
-            eventID = oldInvitee.event_id
-            eventObject = Event.find_by_inviteID(oldInvitee.id)
-            eventObject.name = tarEvent.name
-            eventObject.start = tarEvent.start
-            eventObject.end = tarEvent.end
-            eventObject.save!
+            if oldInvitee.users_id != session[:uid]
+              eventID = oldInvitee.event_id
+              eventObject = Event.find_by_inviteID(oldInvitee.id)
+              eventObject.name = tarEvent.name
+              eventObject.start = tarEvent.start
+              eventObject.end = tarEvent.end
+              eventObject.save!
+            end
+            oldInvitee.msg = params[:inviteMessage]
+            oldInvitee.save!
           end
           
           #new invitees        
