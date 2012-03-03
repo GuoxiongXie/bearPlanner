@@ -183,7 +183,7 @@ class BearPlannerController < ApplicationController
             redirect_to :action => "show_calendar", :cal_id => calID
           end
         else# This will happen if one of the validations define in /app/models/event.rb fail for this instance.
-          redirect_to :action => "create_event", :notice => "An error has occurred.", :event_id => params[:event_id], :cal_id => calID
+          redirect_to :action => "edit_event", :notice => "An error has occurred.", :event_id => params[:event_id], :cal_id => calID
         end
       end
     end
