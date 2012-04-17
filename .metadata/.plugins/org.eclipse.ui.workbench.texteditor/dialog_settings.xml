@@ -2,19 +2,19 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="true" key="wrap"/>
-		<item value="false" key="casesensitive"/>
 		<item value="false" key="isRegEx"/>
+		<item value="false" key="casesensitive"/>
 		<item value="false" key="wholeword"/>
 		<item value="edit_event" key="selection"/>
 		<list key="findhistory">
 			<item value="edit_event"/>
+			<item value="&quot;Accept"/>
+			<item value="show_invite"/>
+			<item value="access"/>
+			<item value="end"/>
 			<item value="create_event"/>
 			<item value="delete_event"/>
 			<item value="show_cal"/>
-			<item value="save!"/>
-			<item value="destroy"/>
-			<item value=":notice"/>
-			<item value="delete_in"/>
 		</list>
 	</section>
 </section>
